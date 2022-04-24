@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T09:13:19.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fms0WKl2uk6hGdOtmo6C" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T09:34:24.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="5FCSIa5BzS_JsFPVMQ-R" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2607" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -88,13 +88,13 @@
         <mxCell id="RBdGw65wzxSJJSZNY4Xp-15" value="+ BoardController(): void&#xa;+ addBoard(name: string): string&#xa;+ removeBoard(name: string): string&#xa;+ limitColumn(name: string, limit: int): string&#xa;+ addTask(boardName: string,title: string, description: string, dueDate: string): string&#xa;+ moveTask(boardName: string, taskTitle: string): string&#xa;+ addToList(assignment: string): void&#xa;+ removeFromList(assignment: string): void&#xa;+ getList(): string&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBdGw65wzxSJJSZNY4Xp-12" vertex="1">
           <mxGeometry y="68" width="470" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="8-tK_K1t71oXaO_0AWF_-0" value="&lt;&lt;interface&gt;&gt;&#xa;Board" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8-tK_K1t71oXaO_0AWF_-0" value="&lt;&lt;interface&gt;&gt;&#xa;Board" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="110" y="104" width="500" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="8-tK_K1t71oXaO_0AWF_-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="8-tK_K1t71oXaO_0AWF_-0">
+        <mxCell id="8-tK_K1t71oXaO_0AWF_-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8-tK_K1t71oXaO_0AWF_-0" vertex="1">
           <mxGeometry y="40" width="500" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8-tK_K1t71oXaO_0AWF_-2" value="+ addBoard(name: string): string&#xa;+ removeBoard(name: string): string&#xa;+ limitColumn(name: string, limit: int): string&#xa;+ addTask(boardName: string,title: string, description: string, dueDate: string): string&#xa;+ moveTask(boardName: string, taskTitle: string): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8-tK_K1t71oXaO_0AWF_-0">
+        <mxCell id="8-tK_K1t71oXaO_0AWF_-2" value="+ addBoard(name: string): string&#xa;+ removeBoard(name: string): string&#xa;+ limitColumn(name: string, limit: int): string&#xa;+ addTask(boardName: string,title: string, description: string, dueDate: string): string&#xa;+ moveTask(boardName: string, taskTitle: string): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8-tK_K1t71oXaO_0AWF_-0" vertex="1">
           <mxGeometry y="48" width="500" height="86" as="geometry" />
         </mxCell>
       </root>
